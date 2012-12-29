@@ -157,7 +157,7 @@ class NzbxProvider(generic.NZBProvider):
     def _doSearch(self, search_params, show=None, max_age=0):
 
         params = {
-                  "limit": 250,
+                  "l": 250,
                   "index": 'releases',
                   "source": 'sickbeard',
                   }
